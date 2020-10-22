@@ -3,7 +3,9 @@
 **蒸汽波风格的最大特征是混合了上世纪8090年代各种标签和元素。** 蒸汽波影响最大的国家是美国，日本，中国。
 美国是一个多元文化国家，任何带有混合属性的文化都很容易在活跃而包容的艺术社会中诞生和被接受。
 蒸汽波的画面中出现最多的就是日文和中文。上个世纪的人们都认为，1995年的东京就是未来。在日本泡沫经济时期，人人都挥舞着万元钞票当街拦车，霓虹灯的映照下，无处不充斥着粉色和紫色的光线，人们就活在这奢靡而满足的氛围里。层出不穷的新一代电子产品，不断进步的科技生活，美丽而不切实际的未来似乎就近在眼前。
-而中国作为神秘的东方文化的发源地，各种文字和东方元素都被很容易地融入到艺术作品中，充满了东方元素的科幻，本身就是一种最吸引人的流行和时尚。在后来的蒸汽波流行期，中国只是作为一个素材库出现，蒸汽波并没有很快地在国内获得很广泛的关注，近年来才突然出现在人们的视野里。而蒸汽波复古风指恢复上世纪8090年代元素的风貌、风格或风潮。**本文基于Pytorch和卷积神经网络，利用现有的主流模型方法，尝试实现图像的蒸汽波复古风格滤镜。**![在这里插入图片描述](https://img-blog.csdnimg.cn/20201022215051651.png#pic_center)
+而中国作为神秘的东方文化的发源地，各种文字和东方元素都被很容易地融入到艺术作品中，充满了东方元素的科幻，本身就是一种最吸引人的流行和时尚。在后来的蒸汽波流行期，中国只是作为一个素材库出现，蒸汽波并没有很快地在国内获得很广泛的关注，近年来才突然出现在人们的视野里。而蒸汽波复古风指恢复上世纪8090年代元素的风貌、风格或风潮。**本文基于Pytorch和卷积神经网络，利用现有的主流模型方法，尝试实现图像的蒸汽波复古风格滤镜。**
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201022215051651.png#pic_center)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201022215108460.png#pic_center)
 
 #### 1.数据获取
@@ -54,9 +56,9 @@ Youtuber: maru 마루
 [https://www.douban.com/group/topic/120710066/?type=like](https://www.douban.com/group/topic/120710066/?type=like)
 
 ## 使用
-python
-pytorch
-matlab
+* python<br>
+* pytorch<br>
+* matlab<br>
 
 
  Folder/File Name | TODO  
@@ -73,12 +75,23 @@ Code     | TODO
 `cutImages.m` | 裁剪图像
 `allocateTrainValid.py`|将图像分为训练集和验证集
 
-训练
+```bash
 mkdir ./log
 mkdir ./test
+```
+
+训练
+
+```bash
 nohup python -u main.py -gpu -train -model_name 'RCAN' -save_model_name 'RCAN' -n_resblock 8 -bt 8 > log/retroRCAN.log &
+```
+
 测试
+
+```bash
 nohup python -u main.py -gpu -test -test_save_path './test/output/' -n_resblock 8 -test_model './checkpoint/RCAN/RCAN__best' > log/RCAN_test.log &
+```
+
 
 
 
