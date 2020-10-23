@@ -31,7 +31,7 @@ def args_initialize():
                     
     # specifications for testing
     parser.add_argument('-test','--test', action='store_true', default=False)     
-    parser.add_argument('-test_path','--test_path', default='/home/zengxinyang/Zxy_tr/video2image/yourImages')
+    parser.add_argument('-test_path','--test_path', default='./yourImages')
     parser.add_argument('-test_model','--test_model', type=str)  
     parser.add_argument('-test_save_path','--test_save_path', type=str, default='./NewData/test169/')       
     
