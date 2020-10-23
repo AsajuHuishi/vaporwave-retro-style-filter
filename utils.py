@@ -33,7 +33,7 @@ def args_initialize():
     parser.add_argument('-test','--test', action='store_true', default=False)     
     parser.add_argument('-test_path','--test_path', default='./yourImages')
     parser.add_argument('-test_model','--test_model', type=str)  
-    parser.add_argument('-test_save_path','--test_save_path', type=str, default='./NewData/test169/')       
+    parser.add_argument('-test_save_path','--test_save_path', type=str)       
     
     # specifications for data and models
     parser.add_argument('-xfactor','--step', type=int, default=1)
