@@ -50,9 +50,8 @@ Youtuber: maru 마루
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201022214125648.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2OTM3Njg0,size_16,color_FFFFFF,t_70#pic_center)
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201022215742858.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2OTM3Njg0,size_16,color_FFFFFF,t_70#pic_center)
-本文对于尺寸过大的图像首先进行裁剪
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201022215756105.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2OTM3Njg0,size_16,color_FFFFFF,t_70#pic_center)
+![本文对于尺寸过大的图像首先进行裁剪](https://img-blog.csdnimg.cn/20201022215756105.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM2OTM3Njg0,size_16,color_FFFFFF,t_70#pic_center)
 
 
 ## 使用
